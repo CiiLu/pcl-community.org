@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <header>
+  <v-app>
+    <v-app-bar :elevation="1">
       <Header />
-    </header>
-    <main>
+    </v-app-bar>
+    <v-main style="margin-left: 10%; margin-right: 10%">
       <slot />
-    </main>
-    <footer>
+    </v-main>
+    <v-footer>
       <Footer />
-    </footer>
-  </div>
+    </v-footer>
+  </v-app>
 </template>
